@@ -44,7 +44,7 @@ require (
 	github.com/metacubex/quic-go v0.32.0 // indirect
 	github.com/metacubex/sing-shadowsocks v0.1.1-0.20230226153717-4e80da7e6947 // indirect
 	github.com/metacubex/sing-tun v0.1.1-0.20230304153753-5058534177f3 // indirect
-	github.com/metacubex/sing-wireguard v0.0.0-20230213124601-d04406a109b4 // indirect
+	github.com/metacubex/sing-wireguard v0.0.0-20230310035749-f7595fcae5cb // indirect
 	github.com/miekg/dns v1.1.50 // indirect
 	github.com/mroth/weightedrand/v2 v2.0.1 // indirect
 	github.com/onsi/ginkgo/v2 v2.8.3 // indirect
@@ -56,7 +56,7 @@ require (
 	github.com/quic-go/qtls-go1-20 v0.1.1 // indirect
 	github.com/sagernet/go-tun2socks v1.16.12-0.20220818015926-16cb67876a61 // indirect
 	github.com/sagernet/netlink v0.0.0-20220905062125-8043b4a9aa97 // indirect
-	github.com/sagernet/sing v0.1.8-0.20230307054559-0560a4da412b // indirect
+	github.com/sagernet/sing v0.1.8 // indirect
 	github.com/sagernet/sing-shadowtls v0.1.0 // indirect
 	github.com/sagernet/sing-vmess v0.1.3-0.20230307060529-d110e81a50bc // indirect
 	github.com/sagernet/tfo-go v0.0.0-20230207095944-549363a7327d // indirect
