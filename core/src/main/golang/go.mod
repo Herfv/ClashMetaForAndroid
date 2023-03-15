@@ -14,7 +14,7 @@ require (
 
 replace github.com/Dreamacro/clash => ../../foss/golang/clash
 
-require github.com/sagernet/sing v0.1.8
+require github.com/sagernet/sing v0.1.9-0.20230315063014-2731df16725b
 
 require (
 	github.com/3andne/restls-client-go v0.1.4 // indirect
@@ -69,7 +69,7 @@ require (
 	golang.org/x/exp v0.0.0-20221205204356-47842c84f3db // indirect
 	golang.org/x/mod v0.7.0 // indirect
 	golang.org/x/net v0.7.0 // indirect
-	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/sys v0.6.0 // indirect
 	golang.org/x/text v0.7.0 // indirect
 	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
 	golang.org/x/tools v0.5.0 // indirect
