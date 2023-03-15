@@ -21,6 +21,7 @@ require (
 
 require (
 	cfa/blob v0.0.0 // indirect
+	github.com/3andne/restls-client-go v0.1.4 // indirect
 	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da // indirect
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/cilium/ebpf v0.10.0 // indirect
@@ -41,7 +42,7 @@ require (
 	github.com/mdlayher/netlink v1.7.2-0.20221213171556-9881fafed8c7 // indirect
 	github.com/mdlayher/socket v0.4.0 // indirect
 	github.com/metacubex/gvisor v0.0.0-20230304153416-e2bb9c726005 // indirect
-	github.com/metacubex/quic-go v0.32.0 // indirect
+	github.com/metacubex/quic-go v0.33.1 // indirect
 	github.com/metacubex/sing-shadowsocks v0.1.1-0.20230226153717-4e80da7e6947 // indirect
 	github.com/metacubex/sing-tun v0.1.1-0.20230304153753-5058534177f3 // indirect
 	github.com/metacubex/sing-wireguard v0.0.0-20230310035749-f7595fcae5cb // indirect
@@ -51,7 +52,6 @@ require (
 	github.com/oschwald/geoip2-golang v1.8.0 // indirect
 	github.com/pierrec/lz4/v4 v4.1.17 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
-	github.com/quic-go/qtls-go1-18 v0.2.0 // indirect
 	github.com/quic-go/qtls-go1-19 v0.2.1 // indirect
 	github.com/quic-go/qtls-go1-20 v0.1.1 // indirect
 	github.com/sagernet/go-tun2socks v1.16.12-0.20220818015926-16cb67876a61 // indirect
