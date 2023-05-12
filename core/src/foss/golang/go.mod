@@ -53,7 +53,7 @@ require (
 	github.com/metacubex/gvisor v0.0.0-20230417114019-3c3ee672d60c // indirect
 	github.com/metacubex/quic-go v0.33.3-0.20230510010206-687b537b6a58 // indirect
 	github.com/metacubex/sing-shadowsocks v0.2.2-0.20230509230448-a5157cc00a1c // indirect
-	github.com/metacubex/sing-shadowsocks2 v0.0.0-20230510002911-25e95d677383 // indirect
+	github.com/metacubex/sing-shadowsocks2 v0.0.0-20230511124108-b20f64384bdd // indirect
 	github.com/metacubex/sing-tun v0.1.5-0.20230509224930-30065d4b6376 // indirect
 	github.com/metacubex/sing-wireguard v0.0.0-20230426030325-41db09ae771a // indirect
 	github.com/miekg/dns v1.1.54 // indirect
@@ -108,6 +108,6 @@ replace github.com/Dreamacro/clash => ./clash
 
 replace cfa/blob => ../../../build/intermediates/golang_blob
 
-replace gvisor.dev/gvisor v0.0.0-20230128000341-b7014294633b => github.com/metacubex/gvisor v0.0.0-20230202073621-9b7164de61df
+replace gvisor.dev/gvisor v0.0.0-20230128000341-b7014294633b => github.com/metacubex/gvisor v0.0.0-20230417114019-3c3ee672d60c
 
 replace go.uber.org/atomic v1.10.0 => github.com/metacubex/uber-atomic v0.0.0-20230202125923-feb10b770370
