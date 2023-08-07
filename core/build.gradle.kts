@@ -12,7 +12,7 @@ plugins {
 }
 
 val geoipDatabaseUrl =
-    "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
+    "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
 val geoipInvalidate = Duration.ofDays(7)!!
 val geoipOutput = buildDir.resolve("intermediates/golang_blob")
 val golangSource = file("src/main/golang/native")
@@ -69,7 +69,7 @@ afterEvaluate {
 }
 
 task("downloadGeoipDatabase") {
-    val databaseFile = geoipOutput.resolve("Country.mmdb")
+    val databaseFile = geoipOutput.resolve("geoip.metadb")
     val moduleFile = geoipOutput.resolve("go.mod")
     val sourceFile = geoipOutput.resolve("blob.go")
 
@@ -82,7 +82,7 @@ task("downloadGeoipDatabase") {
         
         import _ "embed"
         
-        //go:embed Country.mmdb
+        //go:embed geoip.metadb
         var GeoipDatabase []byte
     """.trimIndent()
 
